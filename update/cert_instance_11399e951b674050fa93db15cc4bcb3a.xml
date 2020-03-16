@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cert_instance">
+    <cert_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assign_to/>
+        <assign_to_empty>Create Unassigned Task</assign_to_empty>
+        <assign_to_group>support_group</assign_to_group>
+        <assignment_type>User Field</assignment_type>
+        <audit_type>data_cert</audit_type>
+        <business_calendar/>
+        <cert_audit_instance/>
+        <cert_condition/>
+        <cert_schedule display_value="Verify Oracle">c4a308429715300000f8d7b8fa297512</cert_schedule>
+        <complete_by>2020-03-20 19:00:00</complete_by>
+        <completed/>
+        <condition/>
+        <conditional>false</conditional>
+        <create_tasks>false</create_tasks>
+        <display_fields/>
+        <entered_time/>
+        <fields>install_date</fields>
+        <filter display_value="Oracle Database - 1">fbda86959791300000f8d7b8fa297593</filter>
+        <group/>
+        <health_window>7</health_window>
+        <health_window_unit>days</health_window_unit>
+        <instructions><![CDATA[
+<p>Validate that Oracle is installed</p>
+]]></instructions>
+        <is_building>false</is_building>
+        <last_run_date>2020-03-06 20:00:02</last_run_date>
+        <name>Verify Oracle</name>
+        <next_scheduled_run/>
+        <number>CRTINST0010010</number>
+        <percent_complete>0</percent_complete>
+        <prev_last_run_date/>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>5</run_dayofweek>
+        <run_period/>
+        <run_start>2020-03-13 19:00:00</run_start>
+        <run_time>1970-01-01 20:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[ ]]></script>
+        <short_description/>
+        <stability_count>1</stability_count>
+        <state>2</state>
+        <sys_class_name>cert_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-13 19:00:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>11399e951b674050fa93db15cc4bcb3a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Verify Oracle</sys_name>
+        <sys_package display_value="Data Certification" source="com.snc.certification_v2">1cbb05261b6e04107d49ec67bc4bcbaa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>cert_instance_11399e951b674050fa93db15cc4bcb3a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-13 19:00:04</sys_updated_on>
+        <table>cmdb_ci_database</table>
+        <task_description>Remedy the discrepancies listed in the Audit Results below</task_description>
+        <template/>
+        <threshold_count>5</threshold_count>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+        <user/>
+    </cert_instance>
+</record_update>
