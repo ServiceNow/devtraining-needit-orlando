@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="new_field_1" label="New field 1" language="en" table="x_58872_needit_my_custom_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>new_field_1</element>
+            <help/>
+            <hint/>
+            <label>New field 1</label>
+            <language>en</language>
+            <name>x_58872_needit_my_custom_table</name>
+            <plural>New field 1s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-26 18:49:30</sys_created_on>
+            <sys_id>5a7319a12fb300107ea7578b2799b632</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>New field 1</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_documentation_x_58872_needit_my_custom_table_new_field_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-26 18:49:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

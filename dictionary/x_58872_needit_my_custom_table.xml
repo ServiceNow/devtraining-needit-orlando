@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="My Custom Table" max_length="40" name="x_58872_needit_my_custom_table" type="collection">
+        <element label="New field 1" max_length="40" name="new_field_1" type="integer"/>
+        <element label="New_field2" max_length="40" name="niew_field2new_field_2" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="New Calendar Date/Time" max_length="40" name="u_calendar_date_time_2" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" default="0" label="New Currency" max_length="20" name="u_currency_4" type="currency"/>
+        <element label="New Data Structure" max_length="800" name="u_data_structure_5" type="data_structure"/>
+        <element label="New Due Date" max_length="40" name="u_due_date_6" type="due_date"/>
+        <element label="New Duration" max_length="40" name="u_glide_duration_7" type="glide_duration"/>
+    </element>
+</database>

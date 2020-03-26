@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="2b6751652fb300107ea7578b2799b6c1" sys_domain="global" table="x_58872_needit_my_custom_table" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-26 19:06:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e76751652fb300107ea7578b2799b6c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_my_custom_table" name="x_58872_needit_my_custom_table" sys_domain="global" view="d047dd252fb300107ea7578b2799b643">2b6751652fb300107ea7578b2799b6c1</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_my_custom_table" sys_domain="global" view="d047dd252fb300107ea7578b2799b643">5447dd252fb300107ea7578b2799b69e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-26 19:06:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-26 19:06:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e36751652fb300107ea7578b2799b6c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_my_custom_table" name="x_58872_needit_my_custom_table" sys_domain="global" view="d047dd252fb300107ea7578b2799b643">2b6751652fb300107ea7578b2799b6c1</sys_ui_form>
+            <sys_ui_section caption="Extra section" display_value="Extra section" name="x_58872_needit_my_custom_table" sys_domain="global" view="d047dd252fb300107ea7578b2799b643">a76751652fb300107ea7578b2799b6c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-26 19:06:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_58872_needit_my_custom_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-26 19:06:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b6751652fb300107ea7578b2799b6c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_58872_needit_my_custom_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_form_sections_2b6751652fb300107ea7578b2799b6c1</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-26 19:06:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="New view for Scarlet" name="New_view_for_Scarlet">d047dd252fb300107ea7578b2799b643</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

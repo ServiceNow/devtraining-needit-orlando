@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Extra section" section_id="a76751652fb300107ea7578b2799b6c0" sys_domain="global" table="x_58872_needit_my_custom_table" version="3" view="New_view_for_Scarlet">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_due_date_6</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-26 19:06:48</sys_created_on>
+            <sys_id>336751652fb300107ea7578b2799b6e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Extra section" display_value="Extra section" name="x_58872_needit_my_custom_table" sys_domain="global" view="d047dd252fb300107ea7578b2799b643">a76751652fb300107ea7578b2799b6c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-26 19:06:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-26 19:06:48</sys_created_on>
+            <sys_id>b36751652fb300107ea7578b2799b6e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Extra section" display_value="Extra section" name="x_58872_needit_my_custom_table" sys_domain="global" view="d047dd252fb300107ea7578b2799b643">a76751652fb300107ea7578b2799b6c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-26 19:06:48</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_duration_7</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-26 19:06:48</sys_created_on>
+            <sys_id>376751652fb300107ea7578b2799b6e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Extra section" display_value="Extra section" name="x_58872_needit_my_custom_table" sys_domain="global" view="d047dd252fb300107ea7578b2799b643">a76751652fb300107ea7578b2799b6c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-26 19:06:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Extra section</caption>
+            <header>false</header>
+            <name>x_58872_needit_my_custom_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-26 19:06:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a76751652fb300107ea7578b2799b6c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Extra section</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_section_a76751652fb300107ea7578b2799b6c0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-26 19:06:47</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="New view for Scarlet" name="New_view_for_Scarlet">d047dd252fb300107ea7578b2799b643</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
