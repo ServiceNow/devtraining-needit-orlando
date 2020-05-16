@@ -13,17 +13,17 @@
         <roles/>
         <script/>
         <sys_class_name>sys_wizard_answer</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-01-24 22:46:34</sys_created_on>
-        <sys_id>da427f010fe83200cd674f8ce1050e7b</sys_id>
+        <sys_created_by>sweta</sys_created_by>
+        <sys_created_on>2020-05-10 12:05:28</sys_created_on>
+        <sys_id>ea86637307e81010c498f4be7c1ed0d2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>NeedIt</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_wizard_answer_da427f010fe83200cd674f8ce1050e7b</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-01-24 22:46:34</sys_updated_on>
+        <sys_update_name>sys_wizard_answer_ea86637307e81010c498f4be7c1ed0d2</sys_update_name>
+        <sys_updated_by>sweta</sys_updated_by>
+        <sys_updated_on>2020-05-10 12:05:28</sys_updated_on>
         <table/>
         <target_url>x_58872_needit_needit.do</target_url>
         <type>1</type>
