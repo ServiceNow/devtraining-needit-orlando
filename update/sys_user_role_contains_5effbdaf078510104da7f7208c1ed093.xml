@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</contains>
+        <role display_value="x_58872_needit.needit_user" name="x_58872_needit.needit_user">4e42fb8d0fa83200cd674f8ce1050e72</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-03 06:30:16</sys_created_on>
+        <sys_id>5effbdaf078510104da7f7208c1ed093</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>admin.x_58872_needit.needit_user</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_user_role_contains_5effbdaf078510104da7f7208c1ed093</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-03 06:30:16</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>
