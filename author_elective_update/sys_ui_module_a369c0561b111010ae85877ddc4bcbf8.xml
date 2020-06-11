@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Custom Table Two">2769c0561b111010ae85877ddc4bcbf5</application>
+        <filter/>
+        <name>Custom Table Twos</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_58872_needit.custom_table_two_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 10:55:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a369c0561b111010ae85877ddc4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Table Twos</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_module_a369c0561b111010ae85877ddc4bcbf8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 10:55:38</sys_updated_on>
+        <table>x_58872_needit_custom_table_two</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>6fbc39dfdb7abb0452cec597059619ff</instance_id>
+        <instance_name>dev89326</instance_name>
+        <name>sys_ui_module_a369c0561b111010ae85877ddc4bcbf8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Custom Table Two">2769c0561b111010ae85877ddc4bcbf5</application><filter/><name>Custom Table Twos</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_58872_needit.custom_table_two_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-11 10:55:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a369c0561b111010ae85877ddc4bcbf8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Custom Table Twos</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ui_module_a369c0561b111010ae85877ddc4bcbf8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-11 10:55:38</sys_updated_on><table>x_58872_needit_custom_table_two</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>592095974</payload_hash>
+        <record_name>Custom Table Twos</record_name>
+        <reverted_from/>
+        <source>b378cc521b111010ae85877ddc4bcb6a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 10:55:38</sys_created_on>
+        <sys_id>ef69c0561b111010ae85877ddc4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172a30563420000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 10:55:38</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2b69c056ed1110107165b95a818e0afa</update_guid>
+        <update_guid_history>2b69c056ed1110107165b95a818e0afa:592095974</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 10:59:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>605bfb9ff74e4db8b3a0f7541e7a0c40</sys_id>
+        <sys_metadata>a369c0561b111010ae85877ddc4bcbf8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Table Twos</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ui_module_a369c0561b111010ae85877ddc4bcbf8</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_a369c0561b111010ae85877ddc4bcbf8">ef69c0561b111010ae85877ddc4bcbfa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 10:59:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
