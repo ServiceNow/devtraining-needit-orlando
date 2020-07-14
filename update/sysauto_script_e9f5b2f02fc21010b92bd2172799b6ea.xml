@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:05:00</entered_time>
+        <name>Find and Close Long Overdue NeedIt Tasks</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2020-07-14 14:25:38</run_start>
+        <run_time>1970-01-01 00:05:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[// Retrieve the value of the x_58872_needit.autoCloseOverdue Application Property
+var howLongToClose = gs.getProperty('x_58872_needit.autoCloseOverdue');
+
+// Query the database for NeedIt Task records with Due date field
+// values older the number of days set in the x_58872_needit.autoCloseOverdue
+// Application Property.  Only return NeedIt Task records have a State value of
+// Open or Work in progress.  Close the NeedIt Tasks and update
+// the NeedIt Task Work notes.
+var overdueNITasks = new GlideRecord('x_58872_needit_needit_task');
+overdueNITasks.addQuery('due_date', '<=', gs.daysAgo(howLongToClose));
+overdueNITasks.addQuery('state', '<', 3);
+
+overdueNITasks.query();
+// Write a log message for each long overdue NeedIt Task Record.  
+// Add a note to the Work notes field.  Change the State to Closed Incomplete.
+// Update the NeedIt Task record. 
+while (overdueNITasks.next()) {
+    gs.info("Auto close NeedIt Task record = " + overdueNITasks.number);
+    overdueNITasks.work_notes = "Record closed because it was too far past the Due date.";
+    overdueNITasks.state = 4;
+    overdueNITasks.update();
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-14 14:26:12</sys_created_on>
+        <sys_id>e9f5b2f02fc21010b92bd2172799b6ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Find and Close Long Overdue NeedIt Tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysauto_script_e9f5b2f02fc21010b92bd2172799b6ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-14 14:26:12</sys_updated_on>
+        <time_zone>floating</time_zone>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
