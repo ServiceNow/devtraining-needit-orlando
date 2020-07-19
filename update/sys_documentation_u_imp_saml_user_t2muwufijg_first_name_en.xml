@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="first_name" label="First name" language="en" table="u_imp_saml_user_t2muwufijg">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>first_name</element>
+            <help/>
+            <hint/>
+            <label>First name</label>
+            <language>en</language>
+            <name>u_imp_saml_user_t2muwufijg</name>
+            <plural>First names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-13 06:44:01</sys_created_on>
+            <sys_id>46b204a0074690102373fea89c1ed0ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>First name</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_documentation_u_imp_saml_user_t2muwufijg_first_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-13 06:44:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

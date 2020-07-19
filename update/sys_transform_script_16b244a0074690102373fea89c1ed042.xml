@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="u_imp_saml_user_t2muwufijg">dab244a0074690102373fea89c1ed035</map>
+        <order>100</order>
+        <script><![CDATA[ //Send data to usage analytics.
+ //sso_source is 'sso:' followed by the idp sys id. Hence 'sso:' needs to be removed
+if (action == 'insert')
+    SNC.SecurityEventSender.sendEventData('SAML.User.AutoProvisioning.Create', 
+'user_name=' + target.first_name, 'idp sysid=' + target.sso_source.substring(4));
+else if (action == 'update' && target.changes())
+    SNC.SecurityEventSender.sendEventData('SAML.User.AutoProvisioning.Update', 
+'user_name=' + target.first_name, 'idp sysid=' + target.sso_source.substring(4));
+]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-13 06:44:02</sys_created_on>
+        <sys_id>16b244a0074690102373fea89c1ed042</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onAfter</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_transform_script_16b244a0074690102373fea89c1ed042</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-13 06:44:02</sys_updated_on>
+        <when>onAfter</when>
+    </sys_transform_script>
+</record_update>

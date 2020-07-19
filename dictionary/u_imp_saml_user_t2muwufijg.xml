@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Saml User T2muwufijg" max_length="40" name="u_imp_saml_user_t2muwufijg" sizeclass="0" type="collection">
+        <element attributes="import_attribute_name=email" label="Email" max_length="40" name="email" type="email"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=first_name" label="First name" max_length="40" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sso_source" label="Sso source" max_length="40" name="sso_source" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=user_name" label="User name" max_length="40" name="user_name" type="string"/>
+    </element>
+</database>
