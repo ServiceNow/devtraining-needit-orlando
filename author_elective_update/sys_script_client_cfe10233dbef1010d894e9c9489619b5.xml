@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_request_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>test1</name>
+        <order/>
+        <script><![CDATA[function onCellEdit(sysIDs, table, oldValues, newValue, callback) {
+  var saveAndClose = true;
+ //Type appropriate comment here, and begin script below
+ var whatneeded = g_form.getValue('u_what_needed');
+		
+		// Clear all of the choices from the What needed field choice list
+		g_form.clearOptions('u_what_needed');
+		
+		// If the value of the Request type field is hr, add
+		// two hr choices and other to the What needed field choice list
+		if(newValue == 'hr'){
+			g_form.addOption('u_what_needed','hr1','Human Resources 1');
+			g_form.addOption('u_what_needed','hr2','Human Resources 2');
+			g_form.addOption('u_what_needed','other','Other');
+		}
+		// If the value of the Request type field is facilities, add
+		// two facilities choices and other to the What needed field
+		// choice list
+		if(newValue == 'facilities'){
+			g_form.addOption('u_what_needed','facilities1','Facilities 1');
+			g_form.addOption('u_what_needed','facilities2','Facilities 2');
+			g_form.addOption('u_what_needed','other','Other');
+		}
+		// If the value of the Request type field is legal, add
+		// two legal choices and other to the What needed field
+		// choice list
+		if(newValue == 'legal'){
+			g_form.addOption('u_what_needed','legal1','Legal 1');
+			g_form.addOption('u_what_needed','legal2','Legal 2');
+			g_form.addOption('u_what_needed','other','Other');
+		}
+		
+		// If the form is loading and it is not a new record, set the u_what_needed value to the
+		// value from the record before it was loaded
+		if(isLoading && !g_form.isNewRecord()){
+			g_form.setValue('u_what_needed', whatneeded);
+		
+	}
+ callback(saveAndClose); 
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 07:55:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cfe10233dbef1010d894e9c9489619b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_cfe10233dbef1010d894e9c9489619b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 07:55:01</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onCellEdit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>a055ec7bdb9033404d2bac44d496196c</instance_id>
+        <instance_name>dev77269</instance_name>
+        <name>sys_script_client_cfe10233dbef1010d894e9c9489619b5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_request_type&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;test1&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onCellEdit(sysIDs, table, oldValues, newValue, callback) {
+  var saveAndClose = true;
+ //Type appropriate comment here, and begin script below
+ var whatneeded = g_form.getValue('u_what_needed');
+		
+		// Clear all of the choices from the What needed field choice list
+		g_form.clearOptions('u_what_needed');
+		
+		// If the value of the Request type field is hr, add
+		// two hr choices and other to the What needed field choice list
+		if(newValue == 'hr'){
+			g_form.addOption('u_what_needed','hr1','Human Resources 1');
+			g_form.addOption('u_what_needed','hr2','Human Resources 2');
+			g_form.addOption('u_what_needed','other','Other');
+		}
+		// If the value of the Request type field is facilities, add
+		// two facilities choices and other to the What needed field
+		// choice list
+		if(newValue == 'facilities'){
+			g_form.addOption('u_what_needed','facilities1','Facilities 1');
+			g_form.addOption('u_what_needed','facilities2','Facilities 2');
+			g_form.addOption('u_what_needed','other','Other');
+		}
+		// If the value of the Request type field is legal, add
+		// two legal choices and other to the What needed field
+		// choice list
+		if(newValue == 'legal'){
+			g_form.addOption('u_what_needed','legal1','Legal 1');
+			g_form.addOption('u_what_needed','legal2','Legal 2');
+			g_form.addOption('u_what_needed','other','Other');
+		}
+		
+		// If the form is loading and it is not a new record, set the u_what_needed value to the
+		// value from the record before it was loaded
+		if(isLoading &amp;&amp; !g_form.isNewRecord()){
+			g_form.setValue('u_what_needed', whatneeded);
+		
+	}
+ callback(saveAndClose); 
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-06 07:55:01&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cfe10233dbef1010d894e9c9489619b5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;test1&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_cfe10233dbef1010d894e9c9489619b5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-06 07:55:01&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;type&gt;onCellEdit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-27293232</payload_hash>
+        <record_name>test1</record_name>
+        <reverted_from/>
+        <source>460fcd25dbe21010d894e9c948961941</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 07:55:01</sys_created_on>
+        <sys_id>aa120affdbaf1010d894e9c94896197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174fce811950000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 07:55:01</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>e2120affdaaf10108b5f4b5ef68c917d</update_guid>
+        <update_guid_history>e2120affdaaf10108b5f4b5ef68c917d:-27293232</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 08:05:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>39917d6cf6f645bd9045d834ef13c281</sys_id>
+        <sys_metadata>cfe10233dbef1010d894e9c9489619b5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">45007fcd0fa83200cd674f8ce1050ebc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_cfe10233dbef1010d894e9c9489619b5</sys_update_name>
+        <sys_update_version display_value="sys_script_client_cfe10233dbef1010d894e9c9489619b5">aa120affdbaf1010d894e9c94896197d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 08:05:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
