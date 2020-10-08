@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>u_request_type</col_name_string>
+        <index_col_name element="u_request_type" name="x_58872_needit_needit">ede1b6e0db331010fd345c7a48961907</index_col_name>
+        <logical_table_name>x_58872_needit_needit</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2020-10-08 20:41:55</sys_created_on>
+        <sys_id>c4d4cfacdb331010fd345c7a48961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needit</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_index_x_58872_needit_needit_u_request_type</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-10-08 20:41:55</sys_updated_on>
+        <table display_value="NeedIt" name="x_58872_needit_needit">45007fcd0fa83200cd674f8ce1050ebc</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>
