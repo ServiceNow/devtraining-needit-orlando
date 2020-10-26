@@ -15,7 +15,8 @@
 		var x = 7;
 		jslog("This message is from jslog().");
 		jslog("The value of x = " + x);
-		jslog("The NeedIt State value = " + g_form.getValue('state'));
+		jslog("The NeedIt Request value = " + g_form.getValue('u_request_type'));
+		jslog("The NeedIt What needed value = " + g_form.getValue('u_what_needed'));
 		jslog("The currently logged in user is " + g_user.getFullName() + ".");
 		
 		g_form.setValue('short_description',g_form.getValue('short_description') + " -  Updated field value");
@@ -29,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6a9d1e6e2f221010f68028a62799b63d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>NeedIt Practice Debugging</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -37,7 +38,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_client_6a9d1e6e2f221010f68028a62799b63d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-13 19:50:22</sys_updated_on>
+        <sys_updated_on>2020-10-26 13:23:45</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <type>onSubmit</type>
         <ui_type>10</ui_type>

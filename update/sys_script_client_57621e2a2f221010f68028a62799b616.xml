@@ -40,6 +40,16 @@
 			g_form.addOption('u_what_needed','legal2','Legal 2');
 			g_form.addOption('u_what_needed','other','Other');
 		}
+	if(newValue == 'finance'){
+			g_form.addOption('u_what_needed','finance1','Finance 1');
+			g_form.addOption('u_what_needed','finance2','Finance 2');
+			g_form.addOption('u_what_needed','other','Other');
+		}
+	if(newValue == 'it'){
+			g_form.addOption('u_what_needed','it1','IT 1');
+			g_form.addOption('u_what_needed','it2','IT 2');
+			g_form.addOption('u_what_needed','other','Other');
+		}
 		
 		// If the form is loading and it is not a new record, set the u_what_needed value to the
 		// value from the record before it was loaded
@@ -53,7 +63,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>57621e2a2f221010f68028a62799b616</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>NeedIt Request Type Options</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -61,7 +71,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_client_57621e2a2f221010f68028a62799b616</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-13 19:00:00</sys_updated_on>
+        <sys_updated_on>2020-10-26 12:12:32</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
