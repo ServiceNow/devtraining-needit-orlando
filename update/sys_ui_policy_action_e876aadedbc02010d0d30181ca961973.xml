@@ -6,18 +6,18 @@
         <mandatory>true</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-10-26 15:07:21</sys_created_on>
-        <sys_id>4ec4a69edbc02010d0d30181ca9619d7</sys_id>
+        <sys_created_on>2020-10-26 15:14:35</sys_created_on>
+        <sys_id>e876aadedbc02010d0d30181ca961973</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>u_other</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_ui_policy_action_4ec4a69edbc02010d0d30181ca9619d7</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_e876aadedbc02010d0d30181ca961973</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-26 15:07:21</sys_updated_on>
+        <sys_updated_on>2020-10-26 15:14:35</sys_updated_on>
         <table>x_58872_needit_needit</table>
-        <ui_policy display_value="NeedIt show or hide Other field">2d84e29edbc02010d0d30181ca9619d2</ui_policy>
+        <ui_policy display_value="NeedIt show or hide Other field">a036ee9edbc02010d0d30181ca96193b</ui_policy>
         <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>
