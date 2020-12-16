@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="NeedIt Department" max_length="40" name="x_58872_needit_needit_department" sizeclass="2" type="collection">
+        <element choice="1" label="Location" max_length="256" name="location" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Colorado" value="2"/>
+                <element inactive_on_update="false" label="Ohio" value="3"/>
+                <element inactive_on_update="false" label="Texas" value="1"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="Enter title here..." label="Title" mandatory="true" max_length="256" name="title" type="string"/>
+    </element>
+</database>

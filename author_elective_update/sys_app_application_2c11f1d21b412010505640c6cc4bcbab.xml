@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Departments</name>
+        <order>100</order>
+        <roles>x_58872_needit.departments_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 04:23:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2c11f1d21b412010505640c6cc4bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Departments</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_app_application_2c11f1d21b412010505640c6cc4bcbab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 04:23:55</sys_updated_on>
+        <title>Departments</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>ceeeb283dbb27304b847ac44d49619f1</instance_id>
+        <instance_name>dev89230</instance_name>
+        <name>sys_app_application_2c11f1d21b412010505640c6cc4bcbab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Departments</name><order>100</order><roles>x_58872_needit.departments_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-15 04:23:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2c11f1d21b412010505640c6cc4bcbab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Departments</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_app_application_2c11f1d21b412010505640c6cc4bcbab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-15 04:23:55</sys_updated_on><title>Departments</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>686536256</payload_hash>
+        <record_name>Departments</record_name>
+        <reverted_from/>
+        <source>cd71a91a1b012010505640c6cc4bcb03</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 04:23:55</sys_created_on>
+        <sys_id>ec11f1d21b412010505640c6cc4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17664a3f3b60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 04:23:55</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>2811f1d2b9412010e84bcae3fcf079ad</update_guid>
+        <update_guid_history>2811f1d2b9412010e84bcae3fcf079ad:686536256</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Departments">ead331561b412010505640c6cc4bcbc7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 04:36:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>369eeb05bfba476fa5c9a5d298efb0c9</sys_id>
+        <sys_metadata>2c11f1d21b412010505640c6cc4bcbab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Departments</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_app_application_2c11f1d21b412010505640c6cc4bcbab</sys_update_name>
+        <sys_update_version display_value="sys_app_application_2c11f1d21b412010505640c6cc4bcbab">ec11f1d21b412010505640c6cc4bcbad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 04:36:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
